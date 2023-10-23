@@ -20,10 +20,51 @@ header nav {
     position: relative;
 }
 
+header nav a {
+    text-decoration: none;
+}
+
 header nav div{
     display: flex;
     gap: 1rem;
 }
+
+.nav2 {
+    color: rgb(166, 206, 57);
+}
+
+.nav2 a:link{
+    color: rgb(166, 206, 57);
+}
+.nav2 a:visited{
+    color: rgb(166, 206, 57);    
+}
+.nav2 a:hover{
+    color: rgb(166, 206, 57);    
+}
+.nav2 a:active{
+    color: rgb(166, 206, 57);    
+}
+
+.current {
+    color: rgb(0, 148, 218);
+}
+
+.current a:link{
+    color: rgb(0, 148, 218);
+}
+.current a:visited{
+    color: rgb(0, 148, 218);    
+}
+.current a:hover{
+    color: rgb(0, 148, 218);    
+}
+.current a:active{
+    color: rgb(0, 148, 218);    
+}
+
+
+
 
 #logo {
     color: #000;
@@ -137,6 +178,23 @@ main section a{
     position: absolute;
     padding: 0.5rem;
     font-size: 2rem;
+}
+
+#Recommended {
+    position: absolute;
+    background-color: #000;
+    padding: 0.2rem;
+    float: right;
+  }
+
+.size a {
+    border: 0.2rem solid #000;
+    font-size: 2rem;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+    display: inline-flex;
+
 }
 
 main div section {
