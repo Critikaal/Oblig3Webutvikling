@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" type="text/css">
+        <link href="css/font/fontawesome-free-6.4.2-web/css/fontawesome.css" rel="stylesheet">
+        <link href="css/font/fontawesome-free-6.4.2-web/css/brands.css" rel="stylesheet">
+        <link href="css/font/fontawesome-free-6.4.2-web/css/solid.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <title>Foot Comfort - Analyse</title>
+    </head>
+    <body>
+        <div id="grid-container" class="analyse">
+            <header>
+                <nav>
+                    <a href="index.html" id="logo">Foot Comfort</a>
+                    <div>
+                        <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+                        <i class="fa-solid fa-bars" style="color: #000000;" id="burger"></i>
+                        <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
+                    </div>
+                    <ul class="navbar">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produkt-oversikt.html">Products</a></li>
+                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#">Analyse oblig 4</a></li>
+                    </ul>
+                    
+                </nav>
+            </header>   
+<main>
+
+            <section>
+            <h1>Analyse av oblig 3</h1>
+            <p>I dette dokumentet skal jeg analysere alt med ting</p>
+
+            <h2>Nøkkelord</h2>
+            <p>drep deg selv</p>
+
+            <h2>Lighthouse</h2>
+            <img src="img/lighthouse.png" alt="Resultater av en lighthouse test på hovedsiden">
+            <p>Hovedsiden har overraskende svært få feil på lighthouse testen. Den største feilen som er bemerket er størelsen på bildefiler som sakker ned lasting av siden.</p> 
+
+            <img src="img/storebilder.png" alt="Lighthouse resultater av performance som viser at bildefilene er for store"> 
+
+            <p>Dette var en feil jeg bemerket meg mens jeg laget siden men priortierte selve funksjonen av siden ovenfor hurtig lasting.</p> 
+
+            <img src="img/networkload.png" alt="Lighthouse resultater som viser at bildene bruker mye nedlastnings hastighet">
+
+            <p>Seo klager i tillegg på at dokumentet ikke har meta beskrivelser og at noen "tap targets" ikke er riktig størelse</p>
+
+            <img src="img/Seo.png" alt="Lighthouse resultater av seo på nettstedet">
+
+            <p>Utenom det er den største feilen at det er dårlig farge kontrast mellom noen a-tagger og bakgrunner</p>
+            
+            <img src="img/contrast.png" alt="Lighthouse resultater som viser at noen a-tagger og bakgrunner har lav kontrast">
+
+            <p>På produkt oversikt siden er det mer eller mindre det samme, den eneste forskjellen er at jeg har en h3 tag rett etter h1 som er en lett fiks</p> 
+            
+            <img src="img/heading.png" alt="Lighthouse resultater som viser at heading elementer ikke er i synkende rekkefølge">
+
+            <h3>Konklusjon</h3>
+            <p>Det var svært høye grader jeg fikk og de få feilene jeg hadde er lett å fikse og burde ikke ta lang tid.</p>
+
+            </section>
+            <section>
+            <h2>WAVE - Webaim</h2>
+            <p>Wave ga meg ikke så mye nytt info men jeg ble mer obs på at jeg har identiske lenker ved siden av hverandre på produkt siden som gjør det værre for en skjerm oppleser å lese relevant innhold og vanskligere å navigere med tastatur.</p>
+            <img src="img/duplisertelinker.png" alt="WAVE resultater av gjenngående lenker ved siden av hverandre">
+            <p>I tillegg fikk jeg en bedre forståelse av akkuratt hvorfor noen av a-taggene hadde for liten kontrast med bakgrunnen selv om jeg ikke syntes det personlig.</p>
+
+            </section>
+            <section>
+
+            <h2>ChatGPT</h2>
+            <p>ChatGPT kom med mange gode endringer som de andre testene ikke ga meg. De gode endringene er:</p>
+        
+            <ul>
+                <li>Lite beskrivende sitetittel</li>
+                <li>Lite beskrivende bilde alt tekst</li>
+                <li>Header struktur</li>
+                <li>Ikon beskrivelser</li>
+                <li>ARIA roller</li>
+            </ul>
+            <h2>Sammenlignings tabel</h2>
+            <table>
+                <tr>
+                    <th>Lighthouse</th>
+                    <th>Wave</th>
+                    <th>ChatGPT</th>
+                </tr>
+                <tr>
+                    <td>Bildestørrelse</td>
+                    <td>Repeterende lenker</td>
+                    <td>Lite beskrivende bilde alt tekst</td>
+                </tr>
+                <tr>
+                    <td>Treg laste tid</td>
+                    <td>Dårlig kontrast</td>
+                    <td>Aria roller</td>
+                </tr>
+                <tr>
+                    <td>Heading i ikke senkende rekkefølge</td>
+                    <td> </td>
+                    <td>Header struktur</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+        </main> 
+            <footer>
+                <h3>Socials</h3>
+                    <section class="socials">
+                        <i class="fa-brands fa-facebook" style="color: #fff;"></i>
+                        <i class="fa-brands fa-twitter" style="color: #fff;"></i>
+                        <i class="fa-brands fa-youtube" style="color: #fff;"></i>
+                        <i class="fa-brands fa-reddit" style="color: #fff;"></i>
+                        <i class="fa-brands fa-linkedin" style="color: #fff;"></i>
+                        <i class="fa-brands fa-discord" style="color: #fff;"></i>
+                    </section>
+                        <h4>Foot Comfort</h4>
+                        <h5>2023 Footcomfort.com, Inc. All Rights Reserved</h5>
+                        
+            </footer>
+        </body>
+    
+</html>
