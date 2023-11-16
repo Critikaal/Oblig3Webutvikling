@@ -18,9 +18,9 @@
                 <nav>
                     <a href="index.html" id="logo">Foot Comfort</a>
                     <div>
-                        <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
-                        <i class="fa-solid fa-bars" style="color: #000000;" id="burger"></i>
-                        <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
+                        <i class="fa-solid fa-magnifying-glass" style="color: #000000;" aria-label="Search"></i>
+                    <i class="fa-solid fa-bars" style="color: #000000;" id="burger" aria-label="Menu"></i>
+                    <i class="fa-solid fa-cart-shopping" style="color: #000000;" aria-label="Shopping Cart"></i>
                     </div>
                     <ul class="navbar">
                         <li><a href="index.html">Home</a></li>
@@ -32,13 +32,20 @@
                 </nav>
             </header>   
 <main>
-
             <section>
             <h1>Analyse av oblig 3</h1>
-            <p>I dette dokumentet skal jeg analysere alt med ting</p>
+            <p>I dette dokumentet skal jeg analysere alt på nettstedet med SEO, UU, ARIA, Metadata osv. for å gjøre nettstedet optimalisert for søk og tilgjengelighet</p>
 
             <h2>Nøkkelord</h2>
-            <p>drep deg selv</p>
+            <p>gjennom å ha sjekket mange forskjellige ord som er relevant til siden endte jeg opp med disse 4 ordene:</p>
+            <ul>
+                <li>Shoes</li>
+                <li>Comfort</li>
+                <li>Comfortable shoes</li>
+                <li>Shoe</li>
+            </ul>
+            <img src="img/googletrends.png" alt="En google trends analytic som viser mine 4 nøkkelord og hvor søkt hver av de er.">
+            <p>Jeg valgte disse 4 ordene fordi de er generelle nok til at folk søker på de ofte men spesifikke nok til at folk finner min side for det meste (med unntak av "shoes"). </p>
 
             <h2>Lighthouse</h2>
             <img src="img/lighthouse.png" alt="Resultater av en lighthouse test på hovedsiden">
@@ -108,6 +115,28 @@
                     <td>Header struktur</td>
                 </tr>
             </table>
+        </section>
+        <section>
+            <h2>Forbedringer på siden</h2>
+            <p>Jeg halverte alle bildestørrelsene på hovedsiden bortsett fra sale.jpg som måtte bli større av en eller annen grunn. Dette var fremdeles ikke nok.</p>
+
+            <p>I tillegg endret jeg alle lenke farger til svart som jeg fjerner problemet med svak farge kontrast. dette var en endring jeg gjorte på alle sider.</p>
+
+            <p>På produkt oversikt siden fikset jeg på sorteringen av headings og endret størrelse og farge på "breadcrumbs" eller navigasjonsbaren.</p>
+
+            <p>På produkt siden var det ingen feil å fikse på utenom Meta descriptions.</p>
+
+            <p>Etter å ha gjort alle disse endringene var det noen uventete endringer som skjedde på sidene som jeg er usikker på hvorfor skjedde. Jeg kommer til å prioritere oppgaven og eventuelt fikse på</p>
+
+            <p>Resultatene etter alle fiksene:</p>
+            <img src="img/fiksetresultat.png" alt="Lighthouse resultater med 96 i performance, 100 i accesibility, 100 i best practices og 99 i SEO">
+            <p>Performance er ikke 100% hovedsaklig fordi fontawesome og normalize sakker ned lastingen av siden som er noe jeg ikke kan gjøre noe med.</p>
+
+            <h2>tilgjengelighet</h2>
+            <p>Skjermleseren leser hovedsaklig lenker og leser ikke så mye av hovedinnholdet. Dette kan være utfordrende hvis man ikke vet hvilken sko man vil ha eller hvor den er, så det burde forbedres sånn at kunder som "vindu shopper" kan finne noe de liker.</p>
+            <p>Med å trykke på TAB flere ganger kan man komme til all innhold man har lyst til, men man kan ha vanskligheter med å gå tilbake til toppen av siden så en slik knapp trenges på bunn av siden. Den nye "skip to main content" knappen virker perfekt både med og uten tastaturnavigering</p>
+
+            
         </section>
     </div>
         </main> 
